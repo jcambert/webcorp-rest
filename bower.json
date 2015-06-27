@@ -1,0 +1,26 @@
+{
+  "name": "webcorp-rest",
+  "version": "0.0.1",
+  "authors": [
+    "Ambert Jean-Christophe <j.ambert@free.fr>"
+  ],
+  "description": "Webcorp Rest api",
+  "main": "server/server.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "webcorp",
+    "rest",
+    "api"
+  ],
+  "license": "MIT",
+  "homepage": "http://jc.ambert.free.fr",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

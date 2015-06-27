@@ -1,0 +1,30 @@
+{
+  "name": "Article",
+  "plural": "Articles",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "societe": {
+      "type": "number",
+      "required": true
+    },
+    "code": {
+      "type": "string",
+      "required": true
+    },
+	"complementaire": {
+      "type": "string",
+      "required": false,
+	  "max": 6
+    },
+	"libelle": {
+      "type": "string",
+      "required": false
+    }
+	
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
