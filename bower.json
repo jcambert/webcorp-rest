@@ -5,7 +5,7 @@
     "Ambert Jean-Christophe <j.ambert@free.fr>"
   ],
   "description": "Webcorp Rest api",
-  "main": "server/server.js",
+  "main": "dist/services.js",
   "moduleType": [
     "node"
   ],
